@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgreSQLTest", "PostgreSQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbAccess", "DbAccess\DbAccess.csproj", "{ADE5994A-5B6F-4D32-830B-AA6218F3C5CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{D9E38CE1-233B-462D-8DBB-67D5888CCABD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ADE5994A-5B6F-4D32-830B-AA6218F3C5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE5994A-5B6F-4D32-830B-AA6218F3C5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE5994A-5B6F-4D32-830B-AA6218F3C5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E38CE1-233B-462D-8DBB-67D5888CCABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E38CE1-233B-462D-8DBB-67D5888CCABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E38CE1-233B-462D-8DBB-67D5888CCABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E38CE1-233B-462D-8DBB-67D5888CCABD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
