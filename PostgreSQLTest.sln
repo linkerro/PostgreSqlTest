@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgreSQLTest", "PostgreSQLTest\PostgreSQLTest.csproj", "{BA0E1EAA-4099-4A7B-99A0-ECD743B967E6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbAccess", "DbAccess\DbAccess.csproj", "{ADE5994A-5B6F-4D32-830B-AA6218F3C5CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{D9E38CE1-233B-462D-8DBB-67D5888CCABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5", "Mvc5\Mvc5.csproj", "{1D37A313-D93B-4C2F-A635-8BD1A7E43E88}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "asp.net5", "asp.net5\asp.net5.xproj", "{9FF3AB3A-D7ED-4B8B-BA2B-14E0D081F69A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DbAccessVnext", "DbAccessVnext\DbAccessVnext.xproj", "{5544537A-297E-4880-9C91-462F70543E5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{D9E38CE1-233B-462D-8DBB-67D5888CCABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9E38CE1-233B-462D-8DBB-67D5888CCABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9E38CE1-233B-462D-8DBB-67D5888CCABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D37A313-D93B-4C2F-A635-8BD1A7E43E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D37A313-D93B-4C2F-A635-8BD1A7E43E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D37A313-D93B-4C2F-A635-8BD1A7E43E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D37A313-D93B-4C2F-A635-8BD1A7E43E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF3AB3A-D7ED-4B8B-BA2B-14E0D081F69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF3AB3A-D7ED-4B8B-BA2B-14E0D081F69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF3AB3A-D7ED-4B8B-BA2B-14E0D081F69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF3AB3A-D7ED-4B8B-BA2B-14E0D081F69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5544537A-297E-4880-9C91-462F70543E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5544537A-297E-4880-9C91-462F70543E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5544537A-297E-4880-9C91-462F70543E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5544537A-297E-4880-9C91-462F70543E5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
