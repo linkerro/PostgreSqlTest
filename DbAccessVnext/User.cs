@@ -9,8 +9,8 @@ namespace DbAccess
     {
         public User()
         {
-            Contacts = new HashSet<Contact>();
-            Contacts1 = new HashSet<Contact>();
+            CreatedContacts = new HashSet<Contact>();
+            ModifiedContacts = new HashSet<Contact>();
         }
 
         public int Id { get; set; }
@@ -29,8 +29,8 @@ namespace DbAccess
 
         public bool IsActive { get; set; }
 
-        public virtual ICollection<Contact> Contacts { get; set; }
+        public virtual ICollection<Contact> CreatedContacts { get; set; }
 
-        public virtual ICollection<Contact> Contacts1 { get; set; }
+        public virtual ICollection<Contact> ModifiedContacts { get; set; }
     }
 }

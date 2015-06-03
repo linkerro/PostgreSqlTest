@@ -4,7 +4,7 @@ using Microsoft.AspNet.Mvc;
 namespace asp.net5.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class ContactsController : Controller
     {
         // GET: api/values
         [HttpGet]

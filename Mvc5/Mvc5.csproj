@@ -292,7 +292,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DbAccess\DbAccess.csproj">
-      <Project>{ADE5994A-5B6F-4D32-830B-AA6218F3C5CB}</Project>
+      <Project>{ade5994a-5b6f-4d32-830b-aa6218f3c5cb}</Project>
       <Name>DbAccess</Name>
     </ProjectReference>
     <ProjectReference Include="..\Repositories\Repositories.csproj">
