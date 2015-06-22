@@ -11,8 +11,8 @@ namespace DbAccess
 
     public partial class PostgresEntities : DbContext, IPostgresEntities
     {
-        public PostgresEntities()
-            : base("name=Model1")
+        public PostgresEntities(string connectionName="Model1")
+            : base("name="+connectionName)
         {
         }
 

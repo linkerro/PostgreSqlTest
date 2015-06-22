@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "bin": {
+        "assembly": "../../../packages/Npgsql.2.2.5/lib/net45/Npgsql.dll"
+      },
+      "dependencies": {
+        "Mono.Security": "1.0.0-*"
+      }
+    }
+  }
+}
